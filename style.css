@@ -1,0 +1,33 @@
+tr:nth-child(even){
+    background-color: rgb(179, 172, 172);
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th, tr:last-child{
+    background-color: #427fef;
+    color: white;
+    font-weight: bold;
+}
+
+/*Task #1 took me around 20 minutes.
+Something that went well for me was being able to complete all the HTML parts.
+Something that took a little longer than expected was getting the colors correct for each specific row.*/
+
+tr, th, td{
+    padding: 5px;
+}
+
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: #f95f47;
+    border-radius: 15px;
+    box-shadow: 10px 10px lightgrey;
+}
+
+/*Task #2 took me around 10 minutes.
+Something that went well was being able to create a shadow behind the colored box
+I didn't have any difficulties with this task.*/
